@@ -7,9 +7,9 @@ def is_palindrome(string):
     
     # Check if the string and its reverse are the same
     if string == reversed_string:
-        return True
+         return True
     else:
-        return False
+         return False
 
 # Test the function
 input_string = input("Enter a string: ")
